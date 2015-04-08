@@ -8,8 +8,6 @@ inc:
   company:      Florida Golf Home
   url:          http://floridagolfhome.s3-website-eu-west-1.amazonaws.com #http://localhost:4000/
   facebook:     pages/Florida-Golf-Home/394372400730896
-  #twitter:      sendtoinc
-  #gplus:        '101183822199340201470'
 
   # Comments
   disqus:
@@ -20,8 +18,6 @@ inc:
   sharing:
     twitter:    false
     facebook:   false
-    gplus:      false
-    hn:         false
 
 
  # Analytics
@@ -30,7 +26,6 @@ inc:
 
 
   # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
@@ -42,7 +37,7 @@ gallerytag:
     thumb_height: 210
     columns: 3
 
-url:         http://floridagolfhome.s3-website-eu-west-1.amazonaws.com #http://localhost:4000
+url:         http://floridagolfhome.co.uk
 source:      .
 destination: ./_site
 plugins:     ./_plugins

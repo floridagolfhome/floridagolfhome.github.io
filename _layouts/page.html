@@ -43,13 +43,6 @@
         <div class="container">
             <h1 id="cover_title">{% if page.title %} {{page.title}} {% else %} {{ site.inc.title }} {% endif %}</h1>
             {% if site.inc.subtitle %}<h3 id="cover_subtitle">{{ site.inc.subtitle }}</h3>{% endif %}
-
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
-            {% endif %}
         </div>
     </section>
 </div>

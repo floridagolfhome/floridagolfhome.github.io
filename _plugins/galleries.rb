@@ -28,9 +28,9 @@ module Jekyll
 				images_html << "<a class=\"gallery-link\" data-lightbox=\"gallery\" href=\"#{image['url']}\" data-title=\"#{image['caption']}\">"
 				images_html << "<img src=\"#{image['thumbnail']}\" class=\"thumbnail\" width=\"#{@config['thumb_width']}\" height=\"#{@config['thumb_height']}\" />\n"
 				images_html << "</a>\n"
-				images_html << "<br style=\"clear: both;\">" if (key + 1) % columns == 0
+				#images_html << "<br style=\"clear: both;\">" if (key + 1) % columns == 0
 			end
-			images_html << "<br style=\"clear: both;\">" if images.count % 4 != 0
+			#images_html << "<br style=\"clear: both;\">" if images.count % 4 != 0
 			gallery_html = "<div class=\"gallery\">\n\n#{images_html}\n\n</div>\n"
 
 			return gallery_html

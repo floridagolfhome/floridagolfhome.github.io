@@ -6,6 +6,7 @@
     <title>Your Florida Golf Home &mdash; </title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="Your Florida Golf Home" />
@@ -25,17 +26,33 @@
 
 <section class="site-nav">
     <header>
-                <nav id="navigation">
-          <!--<a class="brand" href="/">
-            <img src="/images/logo.png" alt="Inc">
-          </a>-->
-          <a href="/about">About</a> &middot;
-          <a href="/location">Location</a> &middot;
-          <a href="/gallery">Gallery</a> &middot;
-          <a href="/prices">Prices</a> &middot;
-          <a href="/extras">Extras</a> &middot;
-          <a href="/contact">Contact</a>
-        </nav>
+        <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/about">About</a></li>
+        <li><a href="/location">Location</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/prices">Prices</a></li>
+        <li><a href="/extras">Extras</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
         
     </header>
 </section>
@@ -86,10 +103,10 @@
     </div>
 </footer>
 
-<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!--<script type="text/javascript" src="http://floridagolfhome.co.uk/js/jquery-1.11.0.min.js"></script>-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/assets/main.js"></script>
-
 
 
 

@@ -1,0 +1,22 @@
+.gallery {
+	.thumbnail {
+		display:inline;
+		padding:0;
+	}
+
+	.gallery-link {
+
+	}
+
+	@media (min-width: 720px) {
+
+	}
+
+	@media (max-width: 720px) {
+		.thumbnail {
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+		}
+	}
+}

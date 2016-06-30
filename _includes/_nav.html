@@ -14,13 +14,26 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="/about">About</a></li>
+        <!--<li><a href="/about">About</a></li>
         <li><a href="/location">Location</a></li>
         <li><a href="/gallery">Gallery</a></li>
         <li><a href="/prices">Prices</a></li>
         <li><a href="/extras">Extras</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/contact">Contact</a></li>-->
+
+
+        {% for node in site.pages %}
+          {% if page.url == node.url && node.nav %}
+            <li><a href="{{node.url}}" class="active">{{node.nav}}</a></li>
+          {% elsif node.nav %}
+            <li><a href="{{node.url}}">{{node.nav}}</a></li>
+          {% endif %}
+        {% endfor %}
+
       </ul>
+
+
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

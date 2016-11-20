@@ -24,18 +24,13 @@ _Note: when editing _config.yml, you need to restart jekyll to see the changes._
 ## Publish to Github Pages
 1. Add your domain to _CNAME_
 2. Edit your repo address at _Rakefile_
+3. Make changes on or branched from source branch
+4. Run `rake publish`:
     
 Run rake task. **NOTE: It will deploy the generated site to _master branch overwriting it**    
 ``` 
 rake publish
 ```
-
-## Usage examples
-
-* Adroll Engineering http://tech.adroll.com/
-* Brace.io blog http://blog.brace.io/
-* Spark.io blog http://blog.spark.io/
-* Department of Better Technology http://blog.dobt.co/
 
 ## Authors
 
@@ -50,12 +45,6 @@ Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for 
 
 + [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
 + [http://github.com/jorde](http://github.com/jorilallo)
-
-## Todo:
-
-+ Documentation
-+ Less config files
-+ Better deploy scripts
 
 ## Copyright and license
 

@@ -28,8 +28,8 @@ inc:
 gallerytag:
     dir: images/gallery
     url: /images/gallery
-    thumb_width: 210
-    thumb_height: 210
+    thumb_width: 260
+    thumb_height: 260
     columns: 3
 
 url:         http://floridagolfhome.co.uk

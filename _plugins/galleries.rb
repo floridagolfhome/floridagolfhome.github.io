@@ -9,7 +9,7 @@
 # License: GPLv2 or later
 # Version: 1.1.0
 
-require "RMagick"
+require "rmagick"
 module Jekyll
 	class GalleryTag < Liquid::Block
 

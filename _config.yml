@@ -6,7 +6,7 @@ inc:
 
   # Company information
   company:      Florida Golf Home
-  url:          http://floridagolfhome.co.uk #http://localhost:4000/
+  url:          https://floridagolfhome.co.uk #http://localhost:4000/
   facebook:     floridagolfhome
 
   # Sharing settings
@@ -26,20 +26,20 @@ inc:
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 gallerytag:
-    dir: images/gallery
+    dir: /_assets/images/gallery
     url: /images/gallery
     thumb_width: 260
     thumb_height: 260
     columns: 3
 
-url:         http://floridagolfhome.co.uk
-source:      .
+url: https://floridagolfhome.co.uk
+source: .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-include:     ['.htaccess']
-exclude:     []
-timezone:    nil
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+include: ['.htaccess']
+exclude: []
+timezone: nil
 
 # Show future posts
 future:      false
@@ -47,23 +47,17 @@ show_drafts: nil
 limit_posts: 0
 highlighter: true
 
-relative_permalinks: true
-
-permalink:     pretty
-paginate_path: 'page:num'
-paginate: 10
-
 markdown:      kramdown
 markdown_ext:  kramdown,mkd,mkdn,md
 textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
-safe:        false
-host:        0.0.0.0
-port:        4000
-baseurl:     /
-lsi:         false
+safe: false
+host: 0.0.0.0
+port: 4000
+baseurl: /
+lsi: false
 
 rdiscount:
   extensions: []
@@ -77,7 +71,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  enable_coderay: false
 
   coderay:
     coderay_wrap: div
